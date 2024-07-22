@@ -4,33 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Bikes Shop</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="nav-bar">
-            <div class="logo">
-                <a href="index.html" target="_blank" rel="noopener noreferrer">Hashmi</a>
+    <header>
+        <div class="header">
+            <div class="nav-bar">
+                <div class="logo">
+                    <a href="index.html" target="_blank" rel="noopener noreferrer">Hashmi</a>
+                </div>
+                <ul>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Products</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Register</a></li>
+                    <li><a href="#" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+                </ul>
             </div>
-            <ul>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Products</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Register</a></li>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
-            </ul>
-
-        </div>
-        <div class="nav-bottom">
-            <div class="nav-description">
-                <h1>Pastry Shop</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor atque vitae distinctio omnis
-                    reiciendis architecto repudiandae. Veniam odit ea reiciendis dicta magni qui minima, eum tenetur id.
-                    Soluta, deleniti nesciunt.</p>
-                <button>Sign Up</button>
+            <div class="nav-bottom">
+                <div class="nav-description">
+                    <h1>Bike Shop</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nihil, soluta, ullam
+                        corrupti aperiam expedita earum, perspiciatis minus vitae sunt laboriosam nobis nostrum maxime
+                        beatae explicabo quisquam sapiente. Voluptates, molestiae.</p>
+                    <button>Sign Up</button>
+                </div>
+                <div class="nav-image"><img src="/MTB-Logo" alt="Mountain Bike Logo">
+                </div>
             </div>
-            <div class="nav-image"></div>
         </div>
     </header>
+    <main class="main">
+        <h2>Our top-seller bikes</h2>
+        <div class="main-images">
+            <figure>
+                <img src="/BMX" alt="Bicycle Motorcross" width="200" height="150">
+                <figcaption>BMX</figcaption>
+            </figure>
+            <figure>
+                <img src="/City_Bike" alt="City Bike" width="200" height="150">
+                <figcaption>City Bikes</figcaption>
+            </figure>
+            <figure>
+                <img src="/MTB" alt="Mountain Bikes" width="200" height="150">
+                <figcaption>Mountain Bikes</figcaption>
+            </figure>
+            <figure>
+                <img src="/Racing_Bike" alt="Racing  Bikes" width="200" height="150">
+                <figcaption>Racing Bikes</figcaption>
+            </figure>
+        </div>
+        <blockquote>When the spirits are low, when the day appears dark, when work becomes monotonous, when hope hardly
+            seems worth having,
+            just mount a bicycle and go out for a spin on the road, without thought on anything but the ride you are
+            taking.
+            <cite>Arthur Conan Doyle</cite>
+        </blockquote>
+        <div class="cta">
+            <div class="cta-text">
+                <p>It's time to ride!</p>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button>Sign up</button>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; The Odin Project 2024</p>
+    </footer>
 </body>
 
 </html>
